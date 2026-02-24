@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import withAuth from '../utils/withAuth'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '@mui/material';
-import { AuthContext } from '../contexts/AuthContext';
+import { AuthContext } from '../contexts/AuthContext.jsx';
 import Navbar from './Navbar';
 import "../styles/Home.css";
 
