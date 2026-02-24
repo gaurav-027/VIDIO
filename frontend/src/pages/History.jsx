@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import "../styles/History.css";
 import Navbar from "../pages/Navbar.jsx"
 import HistoryIcon from '@mui/icons-material/History';
-import { AuthContext } from '../contexts/AuthContext'
+import { AuthContext } from '../contexts/Authcontext.jsx'
 import { useNavigate } from 'react-router-dom';
 
 export default function History() {
