@@ -3,7 +3,7 @@ import "../styles/Profile.css";
 import Navbar from "./Navbar.jsx";
 import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
-import { AuthContext } from '../contexts/AuthContext.jsx';
+import { AuthContext } from '../contexts/Authcontext.jsx';
 
 export default function Profile() {
 
