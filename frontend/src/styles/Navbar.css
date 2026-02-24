@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100vw;
+    height: auto;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    gap: 30vw;
+}
+
+ nav .navbar{
+    border-radius: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+ .navLogo{
+     font-size: 22px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #5227FF, #FF9FFC, #B19EEF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,65 @@
+.historyBack{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #140F2D, #0A0A0F);
+}
+
+.historyMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    gap: 3rem;
+}
+
+.callItem{
+    height: 500px;
+    width: 500px;
+    border: 1px solid crimson;
+    border-radius: 2rem;
+    padding: 20px 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.callHistory{
+    width: 100%;
+    border: 1px solid crimson;
+    border-radius: 2rem;
+    height: 90px;
+    color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+    justify-content: start;
+    align-items: center;
+      background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.callHistory .callInfo p{
+    font-size: 1.2rem;
+}
+
+.svgContainer{
+
+}
+
+.svgImage{
+    height: 500px;
+    width: 500px;
+}
+
+.svgImage img{
+    height: 100%;
+    width: 100%;
+}
