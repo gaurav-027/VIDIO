@@ -17,7 +17,7 @@ import Navbar from './Navbar';
 import { useParams } from "react-router-dom";
 import withAuth from '../utils/withAuth'
 
-const server_url="http://localhost:8080";
+const server_url="https://vidio-m13g.onrender.com";
 
 const connections = {};
 
